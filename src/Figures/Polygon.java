@@ -8,4 +8,5 @@ public class Polygon extends Figure{
     public Polygon(ArrayList<Coordinate> coordinates) {
         super(coordinates);
     }
+
 }
