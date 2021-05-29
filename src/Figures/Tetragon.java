@@ -8,6 +8,10 @@ public class Tetragon extends Figure{
 
     public Tetragon(ArrayList<Coordinate> coordinates) {
         super(coordinates);
+    }
+/*
+    public Tetragon(ArrayList<Coordinate> coordinates) {
+        super(coordinates);
         //длина - расстояние между первой и второй заданной точкой, ширина - между второй и третьей
         this.length = calculateSide(coordinates.get(0), coordinates.get(1));
         this.height = calculateSide(coordinates.get(1), coordinates.get(2));
@@ -17,5 +21,5 @@ public class Tetragon extends Figure{
     public double calculateArea(){
         return (length * height);
     }
-
+*/
 }
