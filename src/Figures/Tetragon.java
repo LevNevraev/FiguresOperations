@@ -1,7 +1,7 @@
 package Figures;
 
 import java.util.ArrayList;
-
+// зачем мне этот класс вообще я хз, но пока оставлю
 public class Tetragon extends Figure{
     private double length;
     private double height;

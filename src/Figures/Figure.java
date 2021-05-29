@@ -106,4 +106,15 @@ public abstract class Figure implements IChangeable {
         }
     }
 
+    // перевод координат в стринг для записи в файл
+    public String getCoordinatesToString(){
+        StringBuilder stringCoordinates = new StringBuilder();
+        for (Coordinate coordinate : coordinates) {
+            stringCoordinates.append(coordinate.getX()).append(" ").append(coordinate.getY()).append(";");
+        }
+        return stringCoordinates.toString();
+    }
+
+
+
 }
